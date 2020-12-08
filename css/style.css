@@ -50,5 +50,28 @@
         background-repeat: no-repeat;
         background-size: 100%;
         position: fixed;
-    }  
+    } 
+    #navigatie {
+        position: fixed;
+        left: 20vw;
+        background-color: #701116;
+        margin-top: 8vh;
+        margin-left: 20w;
+        }
+        #navigatie li {float: left; padding: 1vw 1vh;}
+        nav ul {list-style: none;}
+        nav a {
+            text-decoration: none;
+            font-size: 1.4rem;
+            color: white;
+        }
+        
+        nav a:link, a:visited, a:active {
+           color: white;
+        }
+        
+        nav a:hover{
+            
+        }
+    
 }
