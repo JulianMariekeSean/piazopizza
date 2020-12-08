@@ -18,7 +18,19 @@
 }
 /* tablet */
 @media screen and (min-width: 768px) and (max-width: 992px){
-
+    #logo {
+        position: fixed;
+        left: 0vw;
+        top: 0vw;
+        width: 40vw;
+        height: 20vh;
+    }
+    body {
+        background-image: url(../images/1050377.jpg);
+        background-repeat: no-repeat;
+        background-size: 350%;
+        position: fixed;
+    }  
 }
 /* laptop */
 @media screen and (min-width: 992px) and (max-width: 1200px) {
