@@ -77,6 +77,8 @@
     }
     #navigatie li {
         float: left; padding: 1vw 9vh;
+        border-right: 1px solid white;
+        border-left: 1px solid white;
     }
     li {
         list-style: none;
