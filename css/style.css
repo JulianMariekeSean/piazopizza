@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
 /* CSS Document */
 /* mobiel */
 @media screen and (min-width: 300px) and (max-width: 768px) {
@@ -68,11 +69,13 @@
         left: 20vw;
         background-color: #701116;
         top: 0vh;
-        padding: 9.9vh;
+        padding: 6.8vh;
         width: 100%;
+        font-family: 'Italianno', cursive;
+        font-size: 2rem;
     }
     #navigatie li {
-        float: left; padding: 1vw 10vh;
+        float: left; padding: 1vw 9vh;
     }
     li {
         list-style: none;
