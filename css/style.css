@@ -1,19 +1,19 @@
 @charset "UTF-8";
 /* CSS Document */
-
+/* mobiel */
 @media screen and (min-width: 300px) and (max-width: 768px) {
   
 }
-
+/* tablet */
 @media screen and (min-width: 768px) and (max-width: 992px){
 
 }
-
+/* laptop */
 @media screen and (min-width: 992px) and (max-width: 1200px) {
   
     
 }
-
+/* deskop */
 @media screen and (min-width: 1200px) {
      
 }
