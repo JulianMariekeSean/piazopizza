@@ -55,13 +55,16 @@
         position: fixed;
         left: 20vw;
         background-color: #701116;
-        margin-top: 8vh;
-        margin-left: 20w;
+        top: 0vh;
+        padding: 9.9vh;
+        width: 100%;
+    }
+    #navigatie li {
+        float: left; padding: 1vw 10vh;
     }
     li {
         list-style: none;
         float: left;
-        padding-right: 5%;
     }
 
     /* unvisited link */
