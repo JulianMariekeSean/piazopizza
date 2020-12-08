@@ -20,6 +20,35 @@ body {
     body {
         background-image: url(../images/1050377.jpg);
         background-repeat: none;
-        background-size: 100%;
-    }  
+        background-size: 100%; 
+    } 
+
+    li {
+        list-style: none;
+        float: left;
+        padding-right: 5%;
+    }
+
+    /* unvisited link */
+a:link {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  /* selected link */
+  a:active {
+    color: white;
+  }
 }
