@@ -2,7 +2,19 @@
 /* CSS Document */
 /* mobiel */
 @media screen and (min-width: 300px) and (max-width: 768px) {
-  
+    #logo {
+        position: fixed;
+        left: 0vw;
+        top: 0vw;
+        width: 50vw;
+        height: 20vh;
+    }
+    body {
+        background-image: url(../images/1050377.jpg);
+        background-repeat: no-repeat;
+        background-size: 350%;
+        position: fixed;
+    }  
 }
 /* tablet */
 @media screen and (min-width: 768px) and (max-width: 992px){
@@ -10,17 +22,35 @@
 }
 /* laptop */
 @media screen and (min-width: 992px) and (max-width: 1200px) {
-body {
-    background-image: url(../images/1050377.jpg);
-}
-    
+    #logo {
+        position: fixed;
+        left: 0vw;
+        top: 0vw;
+        width: 20vw;
+        height: 30vh;
+    }
+    body {
+        background-image: url(../images/1050377.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        position: fixed;
+    }  
 }
 /* deskop */
 @media screen and (min-width: 1200px) {
+    #logo {
+        position: fixed;
+        left: 0vw;
+        top: 0vw;
+        width: 20vw;
+        height: 30vh;
+    }
     body {
         background-image: url(../images/1050377.jpg);
-        background-repeat: none;
-        background-size: 100%; 
+
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: fixed;
     } 
 
     li {
@@ -51,4 +81,5 @@ a:link {
   a:active {
     color: white;
   }
+
 }
