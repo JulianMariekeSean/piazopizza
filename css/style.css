@@ -17,6 +17,13 @@ body {
 }
 /* deskop */
 @media screen and (min-width: 1200px) {
+    #logo {
+        position: fixed;
+        left: 0vw;
+        top: 0vw;
+        width: 20vw;
+        height: 30vh;
+    }
     body {
         background-image: url(../images/1050377.jpg);
         background-repeat: none;
