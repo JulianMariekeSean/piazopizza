@@ -76,7 +76,8 @@
         font-size: 2rem;
     }
     #navigatie li {
-        float: left; padding: 1vw 9vh;
+        float: left; 
+        padding: 1vw 9vh;
         border-right: 1px solid white;
         border-left: 1px solid white;
     }
@@ -107,4 +108,19 @@ a:link {
   a:active {
     color: white;
   }
+  span.subnav{display:none;}
+  #navigatie li { position: relative; }
+  #navigatie li:hover span.subnav { 
+      display: inline; 
+      position: fixed;
+      width: 7vw;
+      left: 83vw;
+      font-family: 'Italianno', cursive;
+      font-size: 2rem;
+      padding: 1vw 9vh;
+      top: 21vh;
+      border: 1px white;
+      background-color: #701116;
+    }
+  #navigatie li .subnav { bottom: auto;  }
 }
