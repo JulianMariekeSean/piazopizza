@@ -10,7 +10,9 @@
 }
 /* laptop */
 @media screen and (min-width: 992px) and (max-width: 1200px) {
-  
+body {
+    background-image: url(../images/1050377.jpg);
+}
     
 }
 /* deskop */
