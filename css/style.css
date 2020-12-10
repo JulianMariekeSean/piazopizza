@@ -78,8 +78,6 @@
     #navigatie li {
         float: left; 
         padding: 1vw 9vh;
-        border-right: 1px solid white;
-        border-left: 1px solid white;
     }
     li {
         list-style: none;
@@ -123,4 +121,5 @@ a:link {
       background-color: #701116;
     }
   #navigatie li .subnav { bottom: auto;  }
+  
 }
